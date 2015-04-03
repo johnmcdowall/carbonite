@@ -9,10 +9,6 @@ Gem::Specification.new do |spec|
   spec.authors       = ["John McDowall"]
   spec.email         = ["john@mcdowall.info"]
 
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
-  end
-
   spec.summary       = %q{Encases any website in Carbonite. That is to say, makes a complete static copy locally.}
   spec.homepage      = "https://github.com/johmcdowall/carbonite"
   spec.license       = "MIT"
